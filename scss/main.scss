@@ -15,11 +15,23 @@ img {
 }
 
 .top-design{
-  display: flex;
   width: 100%;
   background-color: #dddddd;
-
+  text-align: right;
+  display: inline-block;
 }
+
+.img-1{
+  width: 100%;
+
+  /*max-width: 180px;*/
+}
+
+.img-2 {
+  display: block;
+  /*max-width: 180px; */
+  width: 100%;
+ }
 
 .main-container{
   padding: 20px;
@@ -45,15 +57,19 @@ p{
 
 .person-content{
   padding: 10px;
-
 }
 
+
 @media screen and (min-width: 768px){
+     .top-design{
+        display: flex;
+        
+     }
+
     .person-content{
       width: 50%;
 
    }
-
 
  }
 
