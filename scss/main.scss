@@ -67,6 +67,7 @@ p{
 
 .person-content{
   padding: 10px;
+  margin: 10px;
   border: grey solid 1px;
   justify-content: space-between;
 }
@@ -87,16 +88,20 @@ p{
           padding-top: 120px;
       }
 
-    .person-content{
-      width: 50%;
+     .person-column{
+       margin: 25px;
+       justify-content: center;
+     }
 
+    .person-content{
+      width: 40%;
    }
 
  }
 
 @media screen and (min-width: 1024px){
   .person-content{
-     width: 33.3%;
+     width: 30%;
 
 
    }
